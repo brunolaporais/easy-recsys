@@ -15,7 +15,7 @@ class memory_based:
 		self.matrix = matrix
 	
 	'''
-	predict_rating: Prediz a avaliacao de um par de entidades (usuario -> item)
+	predict_rating: Prediz a avaliacao de um par de entidades (usuário -> item)
 	Parametris: <row> ID da entidade alvo na linhas
 				<col> ID da entidade alvo na colunas
 				<knn> Numero de vizinhos que sera utilizado

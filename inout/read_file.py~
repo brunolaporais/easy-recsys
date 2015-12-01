@@ -4,7 +4,7 @@ class read_file:
 
 	'''
 	__init__: Construtor
-	Parametros: <rating_file> Arquivo de dados a carregar
+	Parametros: <rating_file> Arquivo de dados à carregar
 	'''
 	def __init__(self, rating_file):
 		self.input_file = open(rating_file)
